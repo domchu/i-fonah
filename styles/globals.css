@@ -37,11 +37,16 @@ a {
   width: 0%;
   display: block;
   height: 2px;
-  background-color: #f44336;
+  background-color: var(--clr-grey-10);
   transition: 0.5s;
   margin: auto;
 }
 .un-list:hover::after {
+  width: 100%;
+}
+.underline {
+  background-color: var(--clr-orange);
+  height: 6px;
   width: 100%;
 }
 
