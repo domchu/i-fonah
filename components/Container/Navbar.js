@@ -40,7 +40,7 @@ const NavBar = () => {
           <Link href="/" className="hover:text-gray-500" passHref>
             <h1
               style={{ color: `${textColor}` }}
-              className="font-bold text-3xl p-8"
+              className="font-bold text-3xl p-8 ml-40"
             >
               IFONAH
             </h1>
@@ -72,7 +72,7 @@ const NavBar = () => {
               </Link>
             </li>
           </ul>
-          <li className="p-4 text-2xl  hover:text-gray-500 list-none">
+          <li className="p-4 text-2xl  hover:text-gray-500 list-none mr-60">
             <Link href="/contact" passHref className="un-list">
               Contact
             </Link>
