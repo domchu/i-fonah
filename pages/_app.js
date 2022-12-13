@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-// import "tailwindcss/tailwind.css";
+
 import Navbar from "../components/Container/Navbar";
 import Footer from "./../components/Container/Footer";
 

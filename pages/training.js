@@ -3,7 +3,7 @@ import Image from "next/image";
 import Navbar from "../components/Container/Navbar";
 import styles from "../styles/Home.module.css";
 
-export default function Faq() {
+export default function Training() {
   return (
     <div className={styles.container}>
       <Head>
@@ -12,7 +12,7 @@ export default function Faq() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <h1>FAQ</h1>
+      <h1>Training</h1>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import HomePage from "../components/HomePage/HomePage";
 import styles from "../styles/Home.module.css";
 import Navbar from "./../components/Container/Navbar";
 
@@ -12,6 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
+      <HomePage />
     </div>
   );
 }

@@ -22,7 +22,7 @@ const NavBar = () => {
         setColor("#000");
         setTextColor("#fff");
       } else {
-        setColor("transparent");
+        setColor("#000");
         setTextColor("#fff");
       }
     };
@@ -34,9 +34,12 @@ const NavBar = () => {
       style={{ backgroundColor: `${color}` }}
       className="fixed left-0 top-0 w-full z-10 ease-in duration-300"
     >
-      <div className="max-w-[1240] m-auto flex justify-between items-center p-4 text-white ">
+      <div className="max-w-[1240] m-auto flex justify-between items-center  text-white ">
         <Link href="/" className="hover:text-gray-500" passHref>
-          <h1 style={{ color: `${textColor}` }} className="font-bold text-3xl">
+          <h1
+            style={{ color: `${textColor}` }}
+            className="font-bold text-3xl p-8"
+          >
             IFONAH
           </h1>
         </Link>
@@ -47,13 +50,18 @@ const NavBar = () => {
             </Link>
           </li>
           <li className="p-4 text-2xl  hover:text-gray-500">
-            <Link href="/#about" passHref>
+            <Link href="/about" passHref>
               About
             </Link>
           </li>
           <li className="p-4 text-2xl  hover:text-gray-500">
             <Link href="/blog" passHref>
               Blog
+            </Link>
+          </li>
+          <li className="p-4 text-2xl  hover:text-gray-500">
+            <Link href="/training" passHref>
+              Training
             </Link>
           </li>
           <li className="p-4 text-2xl  hover:text-gray-500">
@@ -70,7 +78,7 @@ const NavBar = () => {
         {/* mobile button */}
         <div
           onClick={handleMenu}
-          className="block sm:hidden z-10 cursor-pointer hover:text-gray-500"
+          className="block sm:hidden z-10 cursor-pointer hover:text-gray-500 p-8"
         >
           <h1>Menu</h1>
           {menu ? (
@@ -84,7 +92,7 @@ const NavBar = () => {
           className={
             menu
               ? "sm:hidden absolute left-0 top-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300"
-              : "sm:hidden absolute left-[-100%] top-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300"
+              : "sm:hidden absolute left-[-100%] top-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300 py-8 px-8"
           }
         >
           <ul>
@@ -108,7 +116,7 @@ const NavBar = () => {
               onClick={handleMenu}
               className="p-4 text-4xl hover:text-gray-500"
             >
-              <Link href="/Blog" passHref>
+              <Link href="/blog" passHref>
                 Blog
               </Link>
             </li>
@@ -116,7 +124,15 @@ const NavBar = () => {
               onClick={handleMenu}
               className="p-4 text-4xl hover:text-gray-500"
             >
-              <Link href="/Blog" passHref>
+              <Link href="/training" passHref>
+                Training
+              </Link>
+            </li>
+            <li
+              onClick={handleMenu}
+              className="p-4 text-4xl hover:text-gray-500"
+            >
+              <Link href="/services" passHref>
                 Services
               </Link>
             </li>
