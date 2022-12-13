@@ -1,51 +1,8 @@
-// import React from "react";
-// import Link from "next/link";
-// import { AiOutlineMenuUnfold } from "react-icons/ai";
-
-// const Navbar = () => {
-//   return (
-//     <div
-//       className="flex justify-between align-center color-#fff text-white h-20 items-center text-2xl bg-black"
-
-//     >
-//       <div>
-//         <Link href="/" className="pl-8" passHref>
-//           Logo
-//         </Link>
-//         <div className="px-4 cursor-pointer md:hidden">
-//           <AiOutlineMenuUnfold />
-//         </div>
-//       </div>
-//       <div className="pr-8 md:block hidden">
-//         <div>
-//           <Link href="/" className="p-4" passHref>
-//             Home
-//           </Link>
-//           <Link href="/about" className="p-4" passHref>
-//             About
-//           </Link>
-//           <Link href="/blog" className="p-4" passHref>
-//             Blog
-//           </Link>
-//           <Link href="/services" className="p-4" passHref>
-//             Services
-//           </Link>
-//         </div>
-//       </div>
-//       <div>
-//         <Link href="/contact" className="p-4" passHref>
-//           Contact
-//         </Link>
-//       </div>
-//     </div>
-//     //the headings are of two type
-//   );
-// };
-
 // export default Navbar;
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { BiMenuAltRight } from "react-icons/bi";
 
 const NavBar = () => {
   const [menu, setMenu] = useState(false);
@@ -77,9 +34,9 @@ const NavBar = () => {
       style={{ backgroundColor: `${color}` }}
       className="fixed left-0 top-0 w-full z-10 ease-in duration-300"
     >
-      <div className="max-w-[1240] m-auto flex justify-between items-center p-4 text-white">
-        <Link href="/" passHref>
-          <h1 style={{ color: `${textColor}` }} className="font-bold text-4xl">
+      <div className="max-w-[1240] m-auto flex justify-between items-center p-4 text-white ">
+        <Link href="/" className="hover:text-gray-500" passHref>
+          <h1 style={{ color: `${textColor}` }} className="font-bold text-3xl">
             IFONAH
           </h1>
         </Link>
@@ -105,7 +62,7 @@ const NavBar = () => {
             </Link>
           </li>
         </ul>
-        <li className="p-4 text-2xl  hover:text-gray-500">
+        <li className="p-4 text-2xl  hover:text-gray-500 list-none">
           <Link href="/contact" passHref>
             Contact
           </Link>
@@ -113,13 +70,13 @@ const NavBar = () => {
         {/* mobile button */}
         <div
           onClick={handleMenu}
-          className="block sm:hidden z-10 cursor-pointer"
+          className="block sm:hidden z-10 cursor-pointer hover:text-gray-500"
         >
           <h1>Menu</h1>
           {menu ? (
-            <AiOutlineClose size={20} style={{ color: `${textColor}` }} />
+            <AiOutlineClose size={30} style={{ color: `${textColor}` }} />
           ) : (
-            <AiOutlineMenu size={20} style={{ color: `${textColor}` }} />
+            <BiMenuAltRight size={30} style={{ color: `${textColor}` }} />
           )}
         </div>
         {/* mobile menu */}
@@ -165,7 +122,7 @@ const NavBar = () => {
             </li>
             <li
               onClick={handleMenu}
-              className="p-4 text-4xl hover:text-gray-500"
+              className="p-4 text-4xl hover:text-gray-500 "
             >
               <Link href="/contact" passHref>
                 Contact
