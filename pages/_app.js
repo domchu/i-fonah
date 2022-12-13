@@ -1,12 +1,12 @@
-// import "../styles/globals.css";
-import "tailwindcss/tailwind.css";
-import Navbar from "../component/Container/Navbar";
-import Footer from "./../component/Container/Footer";
+import "../styles/globals.css";
+// import "tailwindcss/tailwind.css";
+import Navbar from "../components/Container/Navbar";
+import Footer from "./../components/Container/Footer";
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <Component {...pageProps} />
       <Footer />
     </>
