@@ -78,30 +78,44 @@ const NavBar = () => {
       className="fixed left-0 top-0 w-full z-10 ease-in duration-300"
     >
       <div className="max-w-[1240] m-auto flex justify-between items-center p-4 text-white">
-        <Link href="/">
+        <Link href="/" passHref>
           <h1 style={{ color: `${textColor}` }} className="font-bold text-4xl">
             IFONAH
           </h1>
         </Link>
         <ul style={{ color: `${textColor}` }} className=" hidden sm:flex">
           <li className="p-4 text-2xl  hover:text-gray-500">
-            <Link href="/">Home</Link>
+            <Link href="/" passHref>
+              Home
+            </Link>
           </li>
           <li className="p-4 text-2xl  hover:text-gray-500">
-            <Link href="/#about">About</Link>
+            <Link href="/#about" passHref>
+              About
+            </Link>
           </li>
           <li className="p-4 text-2xl  hover:text-gray-500">
-            <Link href="/blog">Blog</Link>
+            <Link href="/blog" passHref>
+              Blog
+            </Link>
+          </li>
+          <li className="p-4 text-2xl  hover:text-gray-500">
+            <Link href="/services" passHref>
+              Services
+            </Link>
           </li>
         </ul>
         <li className="p-4 text-2xl  hover:text-gray-500">
-          <Link href="/contact">Contact</Link>
+          <Link href="/contact" passHref>
+            Contact
+          </Link>
         </li>
         {/* mobile button */}
         <div
           onClick={handleMenu}
           className="block sm:hidden z-10 cursor-pointer"
         >
+          <h1>Menu</h1>
           {menu ? (
             <AiOutlineClose size={20} style={{ color: `${textColor}` }} />
           ) : (
@@ -129,16 +143,24 @@ const NavBar = () => {
               onClick={handleMenu}
               className="p-4 text-4xl hover:text-gray-500"
             >
-              <Link href="/#gallery" passHref>
-                Gallery
+              <Link href="/#about" passHref>
+                About
               </Link>
             </li>
             <li
               onClick={handleMenu}
               className="p-4 text-4xl hover:text-gray-500"
             >
-              <Link href="/work" passHref>
-                Work
+              <Link href="/Blog" passHref>
+                Blog
+              </Link>
+            </li>
+            <li
+              onClick={handleMenu}
+              className="p-4 text-4xl hover:text-gray-500"
+            >
+              <Link href="/Blog" passHref>
+                Services
               </Link>
             </li>
             <li
