@@ -1,4 +1,5 @@
 // export default Navbar;
+
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
@@ -43,35 +44,35 @@ const NavBar = () => {
             IFONAH
           </h1>
         </Link>
-        <ul style={{ color: `${textColor}` }} className=" hidden sm:flex">
+        <ul style={{ color: `${textColor}` }} className=" hidden sm:flex ">
           <li className="p-4 text-2xl  hover:text-gray-500">
-            <Link href="/" passHref>
+            <Link href="/" passHref className="un-list">
               Home
             </Link>
           </li>
           <li className="p-4 text-2xl  hover:text-gray-500">
-            <Link href="/about" passHref>
+            <Link href="/about" passHref className="un-list">
               About
             </Link>
           </li>
           <li className="p-4 text-2xl  hover:text-gray-500">
-            <Link href="/blog" passHref>
+            <Link href="/blog" passHref className="un-list">
               Blog
             </Link>
           </li>
           <li className="p-4 text-2xl  hover:text-gray-500">
-            <Link href="/training" passHref>
+            <Link href="/training" passHref className="un-list">
               Training
             </Link>
           </li>
-          <li className="p-4 text-2xl  hover:text-gray-500">
-            <Link href="/services" passHref>
+          <li className="p-4 text-2xl  hover:text-gray-500-underline">
+            <Link href="/services" passHref className="un-list">
               Services
             </Link>
           </li>
         </ul>
         <li className="p-4 text-2xl  hover:text-gray-500 list-none">
-          <Link href="/contact" passHref>
+          <Link href="/contact" passHref className="un-list">
             Contact
           </Link>
         </li>
@@ -98,7 +99,7 @@ const NavBar = () => {
           <ul>
             <li
               onClick={handleMenu}
-              className="p-4 text-4xl hover:text-gray-500"
+              className="p-4 text-4xl hover:text-gray-500 decoration-solid"
             >
               <Link href="/" passHref>
                 Home
