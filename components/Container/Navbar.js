@@ -72,8 +72,8 @@ const NavBar = () => {
               </Link>
             </li>
           </ul>
-          <li className="p-4 text-2xl  hover:text-gray-500 list-none mr-60">
-            <Link href="/contact" passHref className="un-list">
+          <li className="p-4 text-2xl hover:text-black list-none mr-60 bg-orange-300 rounded-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-orange-100 duration-300">
+            <Link href="/contact" passHref className="unlist">
               Contact
             </Link>
           </li>
