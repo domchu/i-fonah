@@ -72,7 +72,7 @@ const NavBar = () => {
               </Link>
             </li>
           </ul>
-          <li className="p-4 text-2xl hover:text-black list-none  bg-orange-500 rounded-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-orange-200 duration-300">
+          <li className="p-4 text-2xl hover:text-black list-none  bg-orange-500 rounded-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-orange-200 duration-300 animate-bounce">
             <Link href="/contact" passHref className="">
               Contact
             </Link>
