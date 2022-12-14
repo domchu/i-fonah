@@ -2,9 +2,14 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
-      <h1>Footer</h1>
-    </div>
+    <>
+      <div>
+        <div></div>
+        <div>
+          <p>i-fonah &copy;2022 All Right Reserved</p>
+        </div>
+      </div>
+    </>
   );
 };
 
