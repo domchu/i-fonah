@@ -12,7 +12,7 @@ export default function Error() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <h1>Error 404</h1>
+      <h1 className="text-3xl p-40 text-fuchsia-600">Error 404</h1>
     </div>
   );
 }

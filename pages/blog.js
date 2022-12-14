@@ -12,7 +12,7 @@ export default function Blog() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <h1>blog</h1>
+      <h1 className="text-3xl p-40 text-fuchsia-600">Blog</h1>
     </div>
   );
 }

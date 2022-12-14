@@ -2,8 +2,9 @@ import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../components/Container/Navbar";
 import styles from "../styles/Home.module.css";
+import Services from "./services";
 
-export default function Services() {
+export default function services() {
   return (
     <div className={styles.container}>
       <Head>
@@ -12,7 +13,7 @@ export default function Services() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <h1>services</h1>
+      <h1 className="text-3xl p-40 text-fuchsia-600">Services</h1>
     </div>
   );
 }

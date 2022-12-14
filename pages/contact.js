@@ -12,7 +12,7 @@ export default function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <h1>contact</h1>
+      <h1 className="text-3xl p-40 text-fuchsia-600">Contact</h1>
     </div>
   );
 }
