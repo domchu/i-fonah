@@ -9,8 +9,8 @@ const NavBar = () => {
   const [menu, setMenu] = useState(false);
 
   //dark mode initialization
-  const [color, setColor] = useState("black");
-  const [textColor, setTextColor] = useState("white");
+  const [color, setColor] = useState("#ddd");
+  const [textColor, setTextColor] = useState("#000");
 
   const handleMenu = () => {
     setMenu(!menu);
@@ -20,11 +20,11 @@ const NavBar = () => {
   useEffect(() => {
     const changeColor = () => {
       if (window.scrollY >= 90) {
-        setColor("#000");
+        setColor("#ccc");
         setTextColor("#fff");
       } else {
-        setColor("#000");
-        setTextColor("#fff");
+        setColor("#fff");
+        setTextColor("#000");
       }
     };
     window.addEventListener("scroll", changeColor);
@@ -36,11 +36,11 @@ const NavBar = () => {
         style={{ backgroundColor: `${color}` }}
         className="fixed left-0 top-0 w-full z-10 ease-in duration-300"
       >
-        <div className="max-w-[1240] m-auto flex justify-between items-center  text-white ">
+        <div className="max-w-[1240] m-auto flex justify-evenly items-center  text-white ">
           <Link href="/" className="hover:text-gray-500" passHref>
             <h1
               style={{ color: `${textColor}` }}
-              className="font-bold text-3xl p-8 ml-40"
+              className="font-bold text-3xl p-8 "
             >
               IFONAH
             </h1>
@@ -66,14 +66,14 @@ const NavBar = () => {
                 Training
               </Link>
             </li>
-            <li className="p-4 text-2xl  hover:text-gray-500-underline">
+            <li className="p-4 text-2xl  hover:text-gray-500">
               <Link href="/services" className="un-list" passHref>
                 Services
               </Link>
             </li>
           </ul>
-          <li className="p-4 text-2xl hover:text-black list-none mr-60 bg-orange-300 rounded-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-orange-100 duration-300">
-            <Link href="/contact" passHref>
+          <li className="p-4 text-2xl hover:text-black list-none  bg-orange-500 rounded-lg transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 hover:bg-orange-200 duration-300">
+            <Link href="/contact" passHref className="">
               Contact
             </Link>
           </li>
@@ -81,13 +81,13 @@ const NavBar = () => {
           {/* mobile button */}
           <div
             onClick={handleMenu}
-            className="block sm:hidden z-10 cursor-pointer hover:text-gray-500 p-8"
+            className="block sm:hidden z-10 cursor-pointer text-black hover:text-gray-500 p-8"
           >
             <h1>Menu</h1>
             {menu ? (
-              <AiOutlineClose size={30} style={{ color: `${textColor}` }} />
+              <AiOutlineClose size={35} style={{ color: `${setColor}` }} />
             ) : (
-              <BiMenuAltRight size={30} style={{ color: `${textColor}` }} />
+              <BiMenuAltRight size={35} style={{ color: `${setTextColor}` }} />
             )}
           </div>
           {/* mobile menu */}
@@ -111,7 +111,7 @@ const NavBar = () => {
                 onClick={handleMenu}
                 className="p-4 text-4xl hover:text-gray-500"
               >
-                <Link href="/#about" passHref>
+                <Link href="/about" passHref>
                   About
                 </Link>
               </li>

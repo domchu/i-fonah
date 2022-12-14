@@ -36,8 +36,8 @@ a {
   content: "";
   width: 0%;
   display: block;
-  height: 2px;
-  background-color: var(--clr-grey-10);
+  height: 3px;
+  background-color: var(--clr-red);
   transition: 0.5s;
   margin: auto;
 }
@@ -76,7 +76,7 @@ Variables
   --clr-grey-10: hsl(210, 36%, 96%);
   --clr-white: #fff;
   --clr-light-blue: #9ec7cb;
-  --clr-red: #851d46;
+  --clr-red: #f60606;
   --clr-orange: #ffc16e;
   --clr-light-orange: #fcf5e5;
   /* grey used for paragraphs */
