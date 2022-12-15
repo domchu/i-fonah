@@ -92,3 +92,6 @@ a {
 .footer {
   background-color: var(--clr-black);
 }
+.footer-text {
+  @apply h-20 text-xl text-white flex justify-center bg-black items-center;
+}

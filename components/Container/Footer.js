@@ -3,7 +3,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <div className="flex justify-evenly p-8 text-white bg-black  text-2xl ">
+      <div className="md:flex justify-evenly p-8 text-white bg-black text-2xl">
         <div>
           <h1 className="py-4 text-3xl">i-fonah</h1>
         </div>
@@ -19,32 +19,32 @@ const Footer = () => {
         <div>
           <h1 className="py-4 text-3xl">Useful Links</h1>
           <ul>
-            <li className="hover:text-orange-500 py-2 text-xs">
+            <li className="hover:text-orange-700 py-2 text-xs">
               <Link href="/" className="unlist" passHref>
                 Our Services
               </Link>
             </li>
-            <li className="hover:text-orange-500 py-2 text-xs">
+            <li className="hover:text-orange-700 py-2 text-xs">
               <Link href="/" className="unlist" passHref>
                 Our Team
               </Link>
             </li>
-            <li className="hover:text-orange-500 py-2 text-xs">
+            <li className="hover:text-orange-700 py-2 text-xs">
               <Link href="/" className="unlist" passHref>
                 Portfolio
               </Link>
             </li>
-            <li className="hover:text-orange-500 py-2 text-xs">
+            <li className="hover:text-orange-700 py-2 text-xs">
               <Link href="/" className="unlist" passHref>
                 Short Codes
               </Link>
             </li>
-            <li className="hover:text-orange-500 py-2 text-xs">
+            <li className="hover:text-orange-700 py-2 text-xs">
               <Link href="/" className="unlist" passHref>
                 Topography
               </Link>
             </li>
-            <li className="hover:text-orange-500 py-2 text-xs">
+            <li className="hover:text-orange-700 py-2 text-xs">
               <Link href="/" className="unlist" passHref>
                 Privacy policy
               </Link>
@@ -57,9 +57,7 @@ const Footer = () => {
       </div>
       <div className="underline"></div>
       <div className="footer">
-        <p className="h-20 text-xl text-white flex justify-center bg-black items-center">
-          i-fonah&copy;2022, All Right Reserved
-        </p>
+        <p className="footer-text">i-fonah&copy;2022, All Right Reserved</p>
       </div>
     </>
   );
