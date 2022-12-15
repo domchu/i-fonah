@@ -50,7 +50,7 @@ a {
   width: 100%;
 }
 .footer {
-  background-color: #ddd;
+  background-color: var(--clr-black);
 }
 
 /*

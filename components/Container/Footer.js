@@ -19,33 +19,33 @@ const Footer = () => {
         <div>
           <h1 className="py-4 text-3xl">Useful Links</h1>
           <ul>
-            <li className="hover:text-orange-200 py-2 text-xs">
-              <Link href="/" className="un-list" passHref>
+            <li className="hover:text-orange-500 py-2 text-xs">
+              <Link href="/" className="unlist" passHref>
                 Our Services
               </Link>
             </li>
-            <li className="hover:text-orange-200 py-2 text-xs">
-              <Link href="/" className="un-list" passHref>
+            <li className="hover:text-orange-500 py-2 text-xs">
+              <Link href="/" className="unlist" passHref>
                 Our Team
               </Link>
             </li>
-            <li className="hover:text-orange-200 py-2 text-xs">
-              <Link href="/" className="un-list" passHref>
+            <li className="hover:text-orange-500 py-2 text-xs">
+              <Link href="/" className="unlist" passHref>
                 Portfolio
               </Link>
             </li>
-            <li className="hover:text-orange-200 py-2 text-xs">
-              <Link href="/" className="un-list" passHref>
+            <li className="hover:text-orange-500 py-2 text-xs">
+              <Link href="/" className="unlist" passHref>
                 Short Codes
               </Link>
             </li>
-            <li className="hover:text-orange-200 py-2 text-xs">
-              <Link href="/" className="un-list" passHref>
+            <li className="hover:text-orange-500 py-2 text-xs">
+              <Link href="/" className="unlist" passHref>
                 Topography
               </Link>
             </li>
-            <li className="hover:text-orange-200 py-2 text-xs">
-              <Link href="/" className="un-list" passHref>
+            <li className="hover:text-orange-500 py-2 text-xs">
+              <Link href="/" className="unlist" passHref>
                 Privacy policy
               </Link>
             </li>
@@ -55,9 +55,10 @@ const Footer = () => {
           <h1 className="py-4 text-3xl">Social Media</h1>
         </div>
       </div>
+      <div className="underline"></div>
       <div className="footer">
-        <p className="h-20 text-xl text-black flex justify-center items-center">
-          i-fonah &copy;2022 All Right Reserved
+        <p className="h-20 text-xl text-white flex justify-center bg-black items-center">
+          i-fonah&copy;2022, All Right Reserved
         </p>
       </div>
     </>
