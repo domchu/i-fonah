@@ -5,7 +5,9 @@ const Footer = () => {
     <>
       <div className="md:flex justify-evenly p-8 text-white bg-black text-2xl">
         <div>
-          <h1 className="py-4 text-3xl">i-fonah</h1>
+          <h1 className="py-4 text-3xl">
+            TwitchTech (T<sup>2</sup>){" "}
+          </h1>
         </div>
         <div>
           <h1 className="py-4 text-3xl">Main Office</h1>
@@ -33,33 +35,33 @@ const Footer = () => {
         <div>
           <h1 className="py-4 text-3xl">Useful Links</h1>
           <ul>
-            <li className="hover:text-orange-400 py-2 text-xs">
-              <Link href="/" className="unlist" passHref>
+            <li className="footer-links ">
+              <Link href="/services" passHref>
                 Our Services
               </Link>
             </li>
-            <li className="hover:text-orange-400 py-2 text-xs">
-              <Link href="/" className="unlist" passHref>
+            <li className="footer-links ">
+              <Link href="/" passHref>
                 Our Team
               </Link>
             </li>
-            <li className="hover:text-orange-400 py-2 text-xs">
-              <Link href="/" className="unlist" passHref>
+            <li className="footer-links">
+              <Link href="/" passHref>
                 Portfolio
               </Link>
             </li>
-            <li className="hover:text-orange-400 py-2 text-xs">
-              <Link href="/" className="unlist" passHref>
+            <li className="footer-links">
+              <Link href="/" passHref>
                 Short Codes
               </Link>
             </li>
-            <li className="hover:text-orange-400 py-2 text-xs">
-              <Link href="/" className="unlist" passHref>
+            <li className="footer-links">
+              <Link href="/" passHref>
                 Topography
               </Link>
             </li>
-            <li className="hover:text-orange-400 py-2 text-xs">
-              <Link href="/" className="unlist" passHref>
+            <li className="footer-links ">
+              <Link href="/" passHref>
                 Privacy policy
               </Link>
             </li>
@@ -71,7 +73,9 @@ const Footer = () => {
       </div>
       <div className="underline"></div>
       <div className="footer">
-        <p className="footer-text">i-fonah&copy;2022, All Right Reserved</p>
+        <p className="footer-text">
+          TwitchTech (T<sup>2</sup>) &copy;2022, All Right Reserved
+        </p>
       </div>
     </>
   );
