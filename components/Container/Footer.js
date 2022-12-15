@@ -10,41 +10,55 @@ const Footer = () => {
         <div>
           <h1 className="py-4 text-3xl">Main Office</h1>
           <div>
-            <p className="py-2 text-xs">
-              Address : 25 Allen Avenue, Ikeja. Lagos state
-            </p>
-            <h3 className="text-xs">Contact : +234(0) 703 4278 995</h3>
+            <div className="flex">
+              <div>
+                <h4 className="text-orange-400">Address </h4>
+              </div>
+              <div>
+                <p className="py-2 text-xs pl-2">
+                  25 Allen Avenue, Ikeja. Lagos state
+                </p>
+              </div>
+            </div>
+            <div className="flex py-2">
+              <div>
+                <h4 className="text-orange-400">Contact </h4>
+              </div>
+              <div>
+                <p className="py-2 text-xs pl-2">+234(0) 703 4278 995</p>
+              </div>
+            </div>
           </div>
         </div>
         <div>
           <h1 className="py-4 text-3xl">Useful Links</h1>
           <ul>
-            <li className="hover:text-orange-700 py-2 text-xs">
+            <li className="hover:text-orange-400 py-2 text-xs">
               <Link href="/" className="unlist" passHref>
                 Our Services
               </Link>
             </li>
-            <li className="hover:text-orange-700 py-2 text-xs">
+            <li className="hover:text-orange-400 py-2 text-xs">
               <Link href="/" className="unlist" passHref>
                 Our Team
               </Link>
             </li>
-            <li className="hover:text-orange-700 py-2 text-xs">
+            <li className="hover:text-orange-400 py-2 text-xs">
               <Link href="/" className="unlist" passHref>
                 Portfolio
               </Link>
             </li>
-            <li className="hover:text-orange-700 py-2 text-xs">
+            <li className="hover:text-orange-400 py-2 text-xs">
               <Link href="/" className="unlist" passHref>
                 Short Codes
               </Link>
             </li>
-            <li className="hover:text-orange-700 py-2 text-xs">
+            <li className="hover:text-orange-400 py-2 text-xs">
               <Link href="/" className="unlist" passHref>
                 Topography
               </Link>
             </li>
-            <li className="hover:text-orange-700 py-2 text-xs">
+            <li className="hover:text-orange-400 py-2 text-xs">
               <Link href="/" className="unlist" passHref>
                 Privacy policy
               </Link>
