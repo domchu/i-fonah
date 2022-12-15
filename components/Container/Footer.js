@@ -1,4 +1,4 @@
-import React from "react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -14,7 +14,41 @@ const Footer = () => {
             <h3>Contact: +234(0) 703 4278 995</h3>
           </div>
         </div>
-        <div></div>
+        <div>
+          <h1>Useful Links</h1>
+          <ul>
+            <li>
+              <Link href="/" className="un-list" passHref>
+                Our Services
+              </Link>
+            </li>
+            <li>
+              <Link href="/" className="un-list" passHref>
+                Our Team
+              </Link>
+            </li>
+            <li>
+              <Link href="/" className="un-list" passHref>
+                Portfolio
+              </Link>
+            </li>
+            <li>
+              <Link href="/" className="un-list" passHref>
+                Short Codes
+              </Link>
+            </li>
+            <li>
+              <Link href="/" className="un-list" passHref>
+                Topography
+              </Link>
+            </li>
+            <li>
+              <Link href="/" className="un-list" passHref>
+                Privacy policy
+              </Link>
+            </li>
+          </ul>
+        </div>
         <div></div>
       </div>
       <div className="footer">
