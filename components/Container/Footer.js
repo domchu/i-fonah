@@ -3,53 +3,57 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <div>
+      <div className="flex justify-evenly p-8 text-white bg-black  text-2xl">
         <div>
-          <h1>i-fonah</h1>
+          <h1 className="py-4 text-3xl">i-fonah</h1>
         </div>
         <div>
-          <h1>Main Office</h1>
+          <h1 className="py-4 text-3xl">Main Office</h1>
           <div>
-            <p>25 Allen Avenue, Ikeja. Lagos state</p>
+            <p className=" py-2">
+              Address: 25 Allen Avenue, Ikeja. Lagos state
+            </p>
             <h3>Contact: +234(0) 703 4278 995</h3>
           </div>
         </div>
         <div>
-          <h1>Useful Links</h1>
+          <h1 className="py-4 text-3xl">Useful Links</h1>
           <ul>
-            <li>
+            <li className="hover:text-orange-200 py-2">
               <Link href="/" className="un-list" passHref>
                 Our Services
               </Link>
             </li>
-            <li>
+            <li className="hover:text-orange-200 py-2">
               <Link href="/" className="un-list" passHref>
                 Our Team
               </Link>
             </li>
-            <li>
+            <li className="hover:text-orange-200 py-2">
               <Link href="/" className="un-list" passHref>
                 Portfolio
               </Link>
             </li>
-            <li>
+            <li className="hover:text-orange-200 py-2">
               <Link href="/" className="un-list" passHref>
                 Short Codes
               </Link>
             </li>
-            <li>
+            <li className="hover:text-orange-200 py-2">
               <Link href="/" className="un-list" passHref>
                 Topography
               </Link>
             </li>
-            <li>
+            <li className="hover:text-orange-200 py-2">
               <Link href="/" className="un-list" passHref>
                 Privacy policy
               </Link>
             </li>
           </ul>
         </div>
-        <div></div>
+        <div>
+          <h1 className="py-4 text-3xl">Social Media</h1>
+        </div>
       </div>
       <div className="footer">
         <p className="h-20 text-2xl text-black flex justify-center items-center">
