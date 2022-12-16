@@ -1,12 +1,21 @@
 import Link from "next/link";
-import SocialData from "../SocialData";
+// import SocialData from "../SocialData";
+import {
+  FaWhatsApp,
+  FaFacebook,
+  FaLinkedin,
+  FaTwitter,
+  FaInstagram,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
     <>
       <div className=" block md:flex justify-evenly p-8 text-white bg-black text-2xl">
         <div>
-          <h1 className="py-4 text-3xl">IFONTECH</h1>
+          <h1 className="py-4 text-3xl">
+            IFON<span className="text-orange-400">TECH</span>
+          </h1>
         </div>
         <div>
           <h1 className="py-4 text-3xl">Main Office</h1>
@@ -77,13 +86,39 @@ const Footer = () => {
               </li>
             );
           })} */}
+          <ul className="flex gap-3 pt-3">
+            <li className="hover:text-orange-400 hover:animate-bounce text-xm delay-75">
+              <a href="https://www.twitter.com">
+                <FaLinkedin />
+              </a>
+            </li>
+            <li className="hover:text-orange-400 hover:animate-bounce text-xm delay-75">
+              <a href="https://www.twitter.com">
+                <FaFacebook />
+              </a>
+            </li>
+            <li className="hover:text-orange-400 hover:animate-bounce text-xm delay-75">
+              <a href="https://www.twitter.com">
+                <FaTwitter />
+              </a>
+            </li>
+            {/* <li>
+              <a href="https://www.twitter.com">
+                <FaWhatsApp />
+              </a>
+            </li> */}
+            <li className="hover:text-orange-400 hover:animate-spin text-xm delay-75">
+              <a href="https://www.twitter.com">
+                <FaInstagram />
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
       <div className="underline"></div>
       <div className="footer">
         <p className="footer-text">IfonTech &copy;2022, All Right Reserved</p>
       </div>
-      {/* <SocialData /> */}
     </>
   );
 };
