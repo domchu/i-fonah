@@ -95,6 +95,8 @@ a {
 .footer-text {
   @apply h-20 text-xl text-white flex justify-center bg-black items-center;
 }
+/* @layer components{ */
 .footer-links {
   @apply hover:text-orange-400 hover:animate-bounce hover:py-2 hover:delay-200 py-2 text-xs;
 }
+/* } */

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import SocialData from "../SocialData";
 
 const Footer = () => {
   return (
@@ -69,6 +70,16 @@ const Footer = () => {
         </div>
         <div>
           <h1 className="py-4 text-3xl">Social Media</h1>
+          //* mapping the social media icons
+          {SocialData.map((item, index) => {
+            const { url, icon } = item;
+            return (
+              <li key={index}>
+                <Link to={url}>{icon}</Link>
+              </li>
+            );
+          })}
+          //* end of the social media mapped
         </div>
       </div>
       <div className="underline"></div>
@@ -77,6 +88,7 @@ const Footer = () => {
           TwitchTech (T<sup>2</sup>) &copy;2022, All Right Reserved
         </p>
       </div>
+      <SocialData />
     </>
   );
 };
