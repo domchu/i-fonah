@@ -1,7 +1,8 @@
+import React from "react";
 import Link from "next/link";
-// import SocialData from "../SocialData";
+// import SocialIcons from "../SocialData";
 import {
-  FaWhatsApp,
+  FaWhatsapp,
   FaFacebook,
   FaLinkedin,
   FaTwitter,
@@ -76,38 +77,40 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h1 className="py-3 text-3xl">Social Media</h1>
-
-          {/* {SocialData.map((item, index) => {
+          <h1 className="py-3 text-3xl">Social Media Handler</h1>
+          {/* {SocialIcons.map((item, index) => {
             const { url, icon } = item;
             return (
               <li key={index}>
-                <Link to={url}>{icon}</Link>
+                <a href={url}>{icon} </a>
+                <Link href={url} passHref>
+                  {icon}
+                </Link>
               </li>
             );
           })} */}
-          <ul className="flex gap-3 pt-3">
-            <li className="hover:text-orange-400 hover:animate-bounce text-xm delay-75">
+          <ul className="flex gap-2 pt-3">
+            <li className="hover:text-orange-400 hover:animate-bounce text-xm delay-75 hover:border-x-2 hover:border-y-2">
               <a href="https://www.twitter.com">
                 <FaLinkedin />
               </a>
             </li>
-            <li className="hover:text-orange-400 hover:animate-bounce text-xm delay-75">
+            <li className="hover:text-orange-400 hover:animate-bounce text-xm delay-75 hover:border-x-2 hover:border-y-2">
               <a href="https://www.twitter.com">
                 <FaFacebook />
               </a>
             </li>
-            <li className="hover:text-orange-400 hover:animate-bounce text-xm delay-75">
+            <li className="hover:text-orange-400 hover:animate-bounce text-xm delay-75 hover:border-x-2 hover:border-y-2">
               <a href="https://www.twitter.com">
                 <FaTwitter />
               </a>
             </li>
-            {/* <li>
+            <li className="hover:text-orange-400 hover:animate-bounce text-xm delay-75 hover:border-x-2 hover:border-y-2">
               <a href="https://www.twitter.com">
-                <FaWhatsApp />
+                <FaWhatsapp />
               </a>
-            </li> */}
-            <li className="hover:text-orange-400 hover:animate-spin text-xm delay-75">
+            </li>
+            <li className=" hover:text-orange-400 hover:animate-spin text-xm delay-75 hover:border-x-2 hover:border-y-2">
               <a href="https://www.twitter.com">
                 <FaInstagram />
               </a>
