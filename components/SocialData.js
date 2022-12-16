@@ -1,4 +1,3 @@
-import React from "react";
 import {
   FaWhatsApp,
   FaFacebook,
@@ -6,7 +5,7 @@ import {
   FaTwitter,
   FaInstagram,
 } from "react-icons/fa";
-export const social = [
+const SocialData = [
   {
     id: 1,
     url: "https://www.twitter.com",
@@ -33,3 +32,4 @@ export const social = [
     icon: <FaInstagram />,
   },
 ];
+export default SocialData;
