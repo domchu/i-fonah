@@ -34,7 +34,8 @@ const NavBar = () => {
     <>
       <div
         style={{ backgroundColor: `${color}` }}
-        className="fixed left-0 top-0 w-full z-10 ease-in duration-300"
+        className="w-full ease-in duration-300 "
+        // className="fixed left-0 top-0 w-full z-10 ease-in duration-300"
       >
         <div className="max-w-[1240] m-auto flex justify-evenly items-center  text-white ">
           <Link href="/" className="hover:text-gray-500" passHref>

@@ -2,8 +2,11 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div>
-      <h1 className="h-10 bg-black text-white">Header</h1>
+    <div className="h-20 md:h-20 bg-gray-200 text-black left-0 top-0 w-full ease-in duration-300">
+      <div className="md: flex justify-around">
+        <div></div>
+        <div></div>
+      </div>
     </div>
   );
 };
