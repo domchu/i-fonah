@@ -20,7 +20,7 @@ const Header = () => {
             <div className="flex items-center">
               <GiTimeBomb className="text-xl" />
               <p className="text-xm pl-2">
-                Mon-Fri 08:00-18:00/Saturday 10:00-16:00
+                Mon-Fri 08:00 - 18:00 | Saturday 10:00 - 16:00
               </p>
             </div>
             <div className="flex items-center pr-6 pl-6">
@@ -30,7 +30,6 @@ const Header = () => {
             <div className="flex items-center">
               <FaMapMarkerAlt className="text-xl" />
               <p className="text-xm pl-2">
-                {" "}
                 25 Allen Avenue, Ikeja. Lagos state
               </p>
             </div>
@@ -68,7 +67,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="underline"></div>
     </>
   );
 };
