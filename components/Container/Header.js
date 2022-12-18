@@ -13,20 +13,22 @@ import { GiTimeBomb } from "react-icons/gi";
 const Header = () => {
   return (
     <>
-      <div className="md:h-20 bg-gray-200 text-black left-0 top-0 w-full">
+      <div className="md:h-14 bg-gray-200 text-black left-0 top-0 w-full">
         {/* contact section of the project*/}
-        <div className="hidden md:flex justify-around ">
-          <div className="flex items-center">
+        <div className="hidden md:flex justify-around">
+          <div className="flex items-center text-gray-600 mt-5">
             <div className="flex items-center">
-              <GiTimeBomb />
-              <p className="text-xm pl-2">+234(0) 703 4278 995</p>
+              <GiTimeBomb className="text-xl" />
+              <p className="text-xm pl-2">
+                Mon-Fri 08:00-18:00/Saturday 10:00-16:00
+              </p>
             </div>
             <div className="flex items-center pr-6 pl-6">
-              <FiPhoneCall />
+              <FiPhoneCall className="text-xl" />
               <p className="text-xm pl-2">+234(0) 703 4278 995</p>
             </div>
             <div className="flex items-center">
-              <FaMapMarkerAlt />
+              <FaMapMarkerAlt className="text-xl" />
               <p className="text-xm pl-2">
                 {" "}
                 25 Allen Avenue, Ikeja. Lagos state
@@ -35,7 +37,7 @@ const Header = () => {
           </div>
           {/* icons section of the project */}
           <div>
-            <ul className="flex items-center">
+            <ul className="flex items-center text-gray-600 mt-5">
               <li className="hover:text-orange-400 hover:animate-bounce text-xl pr-3">
                 <a href="https://www.twitter.com">
                   <FaLinkedin />
