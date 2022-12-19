@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import SocialIcons from "../SocialData";
+import socialIcons from "../SocialData";
 import {
   FaWhatsapp,
   FaFacebook,
@@ -78,17 +78,16 @@ const Footer = () => {
         </div>
         <div>
           <h1 className="py-3 text-3xl">Social Media Handler</h1>
-          {/* {SocialIcons.map((item, index) => {
+          {socialIcons.map((item, index) => {
             const { url, icon } = item;
             return (
-              <li key={index}>
-                <a href={url}>{icon} </a>
+              <li key={index} className="decoration-none">
                 <Link href={url} passHref>
                   {icon}
                 </Link>
               </li>
             );
-          })} */}
+          })}
           <ul className="flex gap-2 pt-3">
             <li className="hover:text-orange-400 hover:animate-bounce text-xm delay-75 hover:border-x-2 hover:border-y-2">
               <a href="https://www.twitter.com">
