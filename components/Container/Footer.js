@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import SocialIcons from "../SocialData";
+import socialIcons from "../SocialData";
 import {
   FaWhatsapp,
   FaFacebook,
@@ -78,44 +78,26 @@ const Footer = () => {
         </div>
         <div>
           <h1 className="py-3 text-3xl">Social Media Handler</h1>
-          {/* {SocialIcons.map((item, index) => {
-            const { url, icon } = item;
-            return (
-              <li key={index}>
-                <a href={url}>{icon} </a>
-                <Link href={url} passHref>
-                  {icon}
-                </Link>
-              </li>
-            );
-          })} */}
-          <ul className="flex gap-2 pt-3">
-            <li className="hover:text-orange-400 hover:animate-bounce text-xm delay-75 hover:border-x-2 hover:border-y-2">
-              <a href="https://www.twitter.com">
-                <FaLinkedin />
-              </a>
-            </li>
-            <li className="hover:text-orange-400 hover:animate-bounce text-xm delay-75 hover:border-x-2 hover:border-y-2">
-              <a href="https://www.twitter.com">
-                <FaFacebook />
-              </a>
-            </li>
-            <li className="hover:text-orange-400 hover:animate-bounce text-xm delay-75 hover:border-x-2 hover:border-y-2">
-              <a href="https://www.twitter.com">
-                <FaTwitter />
-              </a>
-            </li>
-            <li className="hover:text-orange-400 hover:animate-bounce text-xm delay-75 hover:border-x-2 hover:border-y-2">
-              <a href="https://www.twitter.com">
-                <FaWhatsapp />
-              </a>
-            </li>
-            <li className=" hover:text-orange-400 hover:animate-spin text-xm delay-75 hover:border-x-2 hover:border-y-2">
-              <a href="https://www.twitter.com">
-                <FaInstagram />
-              </a>
-            </li>
-          </ul>
+          <div className="flex gap-4 pt-3">
+            {socialIcons.map((item, index) => {
+              const { url, icon } = item;
+              return (
+                <>
+                  <ul>
+                    <li key={index}>
+                      <Link
+                        href={url}
+                        passHref
+                        className="hover:text-orange-400 hover:animate-bounce text-xm delay-200"
+                      >
+                        {icon}
+                      </Link>
+                    </li>
+                  </ul>
+                </>
+              );
+            })}
+          </div>
         </div>
       </div>
       <div className="underline"></div>
