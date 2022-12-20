@@ -100,3 +100,6 @@ a {
     @apply hover:text-orange-400 hover:animate-bounce hover:py-2 hover:delay-200 py-2 text-xs;
   }
 }
+.contact-banner {
+  background-image: url("");
+}
