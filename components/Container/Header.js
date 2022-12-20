@@ -30,7 +30,7 @@ const Header = () => {
             </div>
           </div>
           {/* icons section of the project */}
-          <div className="flex items-center text-white mt-5">
+          <div className="flex items-center text-white mt-5 ">
             {socialIcons.map((item, index) => {
               const { url, icon } = item;
               return (
@@ -38,7 +38,7 @@ const Header = () => {
                   <ul>
                     <li
                       key={index}
-                      className="hover:text-orange-400 hover:animate-bounce text-xl pr-3"
+                      className="hover:text-orange-400 hover:animate-bounce text-2xl pr-3"
                     >
                       <Link href={url} passHref>
                         {icon}

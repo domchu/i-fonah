@@ -84,12 +84,11 @@ const Footer = () => {
               return (
                 <>
                   <ul>
-                    <li key={index}>
-                      <Link
-                        href={url}
-                        passHref
-                        className="hover:text-orange-400 hover:animate-bounce text-xm delay-200"
-                      >
+                    <li
+                      key={index}
+                      className="hover:text-orange-400 hover:animate-bounce text-xm delay-200"
+                    >
+                      <Link href={url} passHref>
                         {icon}
                       </Link>
                     </li>
