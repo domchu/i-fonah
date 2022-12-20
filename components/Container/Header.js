@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  FaWhatsapp,
-  FaMapMarkerAlt,
-  FaFacebook,
-  FaLinkedin,
-  FaTwitter,
-  FaInstagram,
-} from "react-icons/fa";
+import { FaMapMarkerAlt } from "react-icons/fa";
 import { FiPhoneCall } from "react-icons/fi";
 import { GiTimeBomb } from "react-icons/gi";
 import socialIcons from "../SocialData";
@@ -15,10 +8,10 @@ import Link from "next/link";
 const Header = () => {
   return (
     <>
-      <div className="md:h-14 bg-black text-white left-0 top-0 w-full">
+      <div className="md:h-20 bg-black text-white left-0 top-0 w-full">
         {/* contact section of the project*/}
         <div className="hidden md:flex justify-around">
-          <div className="flex items-center text-white-600 mt-5">
+          <div className="flex items-center text-white-600 mt-6">
             <div className="flex items-center">
               <GiTimeBomb className="text-xl" />
               <p className="text-xm pl-2">
@@ -37,9 +30,6 @@ const Header = () => {
             </div>
           </div>
           {/* icons section of the project */}
-
-          {/* the icons section of the project */}
-
           <div className="flex items-center text-white mt-5">
             {socialIcons.map((item, index) => {
               const { url, icon } = item;
