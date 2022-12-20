@@ -100,6 +100,11 @@ a {
     @apply hover:text-orange-400 hover:animate-bounce hover:py-2 hover:delay-200 py-2 text-xs;
   }
 }
-.contact-banner {
-  background-image: url("");
-}
+/* .contact-banner {
+  background-image: url("public/Images/contact.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 5rem;
+} */
