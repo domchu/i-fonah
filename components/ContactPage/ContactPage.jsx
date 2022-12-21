@@ -88,17 +88,36 @@ const ContactPage = () => {
           </div>
         </div>
         <div className="contact-form text-black flex-wrap pl-d pr-5 h-full w-4/5">
-          <h1 className="items-center text-left text-3xl mt-5">
-            Send A Message
-          </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ex
-            recusandae harum aliquid cupiditate nulla id perferendis eius
-            quisquam nam velit similique asperiores non consectetur rem dolorum
-            explicabo facilis porro, deserunt totam? Ad, inventore explicabo
-            reprehenderit possimus optio libero commodi sequi blanditiis!
-            Voluptate qui modi ut iure, aliquam quia eligendi?
-          </p>
+          <div>
+            <h1 className="items-center text-left text-3xl mt-5">
+              Send A Message
+            </h1>
+            <p>
+              your email address will not be published. Required fills are
+              marked with *
+            </p>
+            <div>
+              <input type="text" name="name" placeholder="Name.......*" />
+              <input type="text" name="name" placeholder="Email.......*" />
+            </div>
+            <div>
+              <input type="text" name="name" placeholder="Subject.......*" />
+            </div>
+          </div>
+          <div className="">
+            <textarea
+              name=""
+              placeholder="Your Message....."
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            className="p-4 m-4 text-white bg-orange-500 rounded-md hover:animate-bounce hover:bg-orange-300 hover:text-black delay-100 ease-in-out"
+          >
+            SEND MESSAGE
+          </button>
         </div>
       </div>
     </>
