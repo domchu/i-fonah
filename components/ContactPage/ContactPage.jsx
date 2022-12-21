@@ -1,6 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import banner from "../../public/images/contact.jpg";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { FiPhoneCall } from "react-icons/fi";
+import { GiTimeBomb } from "react-icons/gi";
 
 const ContactPage = () => {
   return (
@@ -49,17 +52,40 @@ const ContactPage = () => {
         </div>
       </div>
       {/* the form section of the project */}
-      <div className="flex-wrap border-x-2 border-y-2 border-solid h-auto flex justify-around mt-16 sm:flex-nowrap ">
-        <div className="contact-detail bg-slate-600 text-white flex-wrap pl-d pr-5 h-full w-full">
-          <h1 className="text-center text-3xl mt-5">Contact Details</h1>
-          <p className="text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-            sed illo ut quidem molestiae doloribus saepe inventore quam vel
-            dolore quos enim asperiores cupiditate tempora repellat architecto
-            totam, similique suscipit accusamus dolores porro, ipsa maxime!
-            Consectetur, fugit. Qui officia ipsam maiores ullam modi hic laborum
-            eveniet ab illum, placeat eaque.
-          </p>
+      <div className="flex-wrap border-x-2 border-y-2 border-solid h-auto flex  mt-16 sm:flex-nowrap ">
+        <div className="contact-detail bg-slate-600 text-white flex-wrap pl-d pr-5 h-full w-2/5">
+          <h1 className="text-center text-3xl mt-5 w-full">Contact Details</h1>
+          <div className="bg-white h-1 w-1/5 flex items-center justify-center text-center m-auto mt-2 mb-2"></div>
+          <div className="text-center">
+            <div className="flex justify-center">
+              <FaMapMarkerAlt />
+              <h3>
+                HeadOffice Address <br />{" "}
+                <p> 25 Allen Avenue, Ikeja. Lagos state</p>
+              </h3>
+            </div>
+            <div className="flex justify-center">
+              <FaMapMarkerAlt />
+              <h3>
+                HeadOffice Address <br />{" "}
+                <p> 25 Allen Avenue, Ikeja. Lagos state</p>
+              </h3>
+            </div>
+            <div className="flex justify-center">
+              <FaMapMarkerAlt />
+              <h3>
+                HeadOffice Address <br />{" "}
+                <p> 25 Allen Avenue, Ikeja. Lagos state</p>
+              </h3>
+            </div>
+            <div className="flex justify-center">
+              <FaMapMarkerAlt />
+              <h3>
+                HeadOffice Address <br />{" "}
+                <p> 25 Allen Avenue, Ikeja. Lagos state</p>
+              </h3>
+            </div>
+          </div>
         </div>
         <div className="contact-form text-black flex-wrap pl-d pr-5 h-full w-4/5">
           <h1 className="items-center text-left text-3xl mt-5">

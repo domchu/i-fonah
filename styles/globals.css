@@ -120,3 +120,12 @@ a {
   margin: 0 1rem;
   letter-spacing: var(--spacing);
 }
+.contact-underline {
+  background-color: var(--clr-white);
+  height: 2px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
