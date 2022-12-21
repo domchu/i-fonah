@@ -5,6 +5,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import { FiPhoneCall } from "react-icons/fi";
 import { GiTimeBomb } from "react-icons/gi";
 import { RxEnvelopeClosed } from "react-icons/rx";
+import GoogleMap from "./GoogleMap";
 
 const ContactPage = () => {
   return (
@@ -139,6 +140,7 @@ const ContactPage = () => {
           </button>
         </div>
       </div>
+      <GoogleMap />
     </>
   );
 };
