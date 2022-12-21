@@ -90,6 +90,7 @@ a {
   height: 6px;
   width: 100%;
 }
+/* footer section of the project */
 .footer {
   background-color: var(--clr-black);
 }
@@ -101,6 +102,8 @@ a {
     @apply hover:text-orange-400 hover:animate-bounce hover:py-2 hover:delay-200 py-2 text-xs;
   }
 }
+
+/* contact section of the project */
 .contact-text {
   color: var(--clr-white) !important;
   font-size: 4rem;
