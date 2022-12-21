@@ -32,7 +32,7 @@ const ContactPage = () => {
             <div>
               <Link
                 href="/"
-                className="contact-btn bg-orange-500 hover:bg-orange-200 hover:animate-bounce hover:text-black"
+                className="contact-btn bg-orange-500 hover:bg-orange-200 hover:animate-bounce hover:text-black "
                 passHref
               >
                 HOME

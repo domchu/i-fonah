@@ -106,8 +106,8 @@ a {
 /* contact section of the project */
 .contact-text {
   color: var(--clr-white) !important;
-  font-size: 4rem;
-  margin-top: 5rem;
+  font-size: 3.5rem;
+  margin-top: 7rem;
   margin-bottom: 3rem;
 }
 .contact-btn {
