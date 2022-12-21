@@ -53,7 +53,7 @@ const ContactPage = () => {
         </div>
       </div>
       {/* the form section of the project */}
-      <div className="flex-wrap border-x-2 border-y-2 border-solid h-auto flex  mt-16 sm:flex-nowrap ">
+      <div className="flex-wrap border-x-4 border-y-4 border-solid h-auto flex  mt-16 sm:flex-nowrap ">
         <div className="contact-detail bg-black text-white flex-wrap pl-d pr-5 h-full w-full">
           <h1 className=" text-3xl mt-5 w-full">Contact Details</h1>
           <div className="bg-gray-500 h-1 w-1/5 my-6"></div>
