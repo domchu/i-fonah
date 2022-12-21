@@ -109,9 +109,10 @@ a {
 .contact-text {
   color: var(--clr-white) !important;
   font-size: 3.5rem;
-  margin-top: 7rem;
+  margin-top: 20rem;
   margin-bottom: 3rem;
 }
+
 .contact-btn {
   color: var(--clr-white) !important;
   padding: 1rem 2rem;
@@ -128,4 +129,10 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+.contact-details{
+@apply grid place-items-center
+}
+.contact-icons{
+@apply text-4xl items-center flex justify-center m-auto
 }
