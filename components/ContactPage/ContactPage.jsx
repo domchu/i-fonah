@@ -1,13 +1,13 @@
 import React from "react";
 import Link from "next/link";
-import banner from "../../public/images/contact2.jpg";
+import banner from "../../public/images/contact.jpg";
 
 const ContactPage = () => {
   return (
     <>
       <div>
         <div
-          className="brightness-50"
+          className="brightness-50 h-12"
           style={{
             backgroundImage: `url(${banner.src})`,
             width: "100%",
@@ -46,6 +46,33 @@ const ContactPage = () => {
               </Link>
             </div>
           </div>
+        </div>
+      </div>
+      {/* the form section of the project */}
+      <div className="flex-wrap border-x-2 border-y-2 border-solid h-auto flex justify-around mt-16 sm:flex-nowrap ">
+        <div className="contact-detail bg-slate-600 text-white flex-wrap pl-d pr-5 h-full w-full">
+          <h1 className="text-center text-3xl mt-5">Contact Details</h1>
+          <p className="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            sed illo ut quidem molestiae doloribus saepe inventore quam vel
+            dolore quos enim asperiores cupiditate tempora repellat architecto
+            totam, similique suscipit accusamus dolores porro, ipsa maxime!
+            Consectetur, fugit. Qui officia ipsam maiores ullam modi hic laborum
+            eveniet ab illum, placeat eaque.
+          </p>
+        </div>
+        <div className="contact-form text-black flex-wrap pl-d pr-5 h-full w-4/5">
+          <h1 className="items-center text-left text-3xl mt-5">
+            Send A Message
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ex
+            recusandae harum aliquid cupiditate nulla id perferendis eius
+            quisquam nam velit similique asperiores non consectetur rem dolorum
+            explicabo facilis porro, deserunt totam? Ad, inventore explicabo
+            reprehenderit possimus optio libero commodi sequi blanditiis!
+            Voluptate qui modi ut iure, aliquam quia eligendi?
+          </p>
         </div>
       </div>
     </>
