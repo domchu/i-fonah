@@ -4,6 +4,7 @@ import banner from "../../public/images/contact.jpg";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FiPhoneCall } from "react-icons/fi";
 import { GiTimeBomb } from "react-icons/gi";
+import { RxEnvelopeClosed } from "react-icons/rx";
 
 const ContactPage = () => {
   return (
@@ -53,37 +54,36 @@ const ContactPage = () => {
       </div>
       {/* the form section of the project */}
       <div className="flex-wrap border-x-2 border-y-2 border-solid h-auto flex  mt-16 sm:flex-nowrap ">
-        <div className="contact-detail bg-slate-600 text-white flex-wrap pl-d pr-5 h-full w-2/5">
-          <h1 className="text-center text-3xl mt-5 w-full">Contact Details</h1>
-          <div className="bg-white h-1 w-1/5 flex items-center justify-center text-center m-auto mt-2 mb-2"></div>
-          <div className="text-center">
-            <div className="flex justify-center">
-              <FaMapMarkerAlt />
-              <h3>
-                HeadOffice Address <br />{" "}
+        <div className="contact-detail bg-black text-white flex-wrap pl-d pr-5 h-full w-full">
+          <h1 className=" text-3xl mt-5 w-full">Contact Details</h1>
+          <div className="bg-gray-500 h-1 w-1/5 my-6"></div>
+          <div className="">
+            <div>
+              <div>
+                <FaMapMarkerAlt className="text-4xl grid place-items-center" />
+                <h3>HeadOffice Address </h3>
                 <p> 25 Allen Avenue, Ikeja. Lagos state</p>
-              </h3>
+              </div>
             </div>
-            <div className="flex justify-center">
-              <FaMapMarkerAlt />
+            <div className="bg-gray-500 h-1 w-1/5 my-6"></div>
+            <div className="">
               <h3>
-                HeadOffice Address <br />{" "}
-                <p> 25 Allen Avenue, Ikeja. Lagos state</p>
+                <FiPhoneCall className="text-4xl" />
+                HeadOffice Address
               </h3>
+              <p> 25 Allen Avenue, Ikeja. Lagos state</p>
             </div>
-            <div className="flex justify-center">
-              <FaMapMarkerAlt />
-              <h3>
-                HeadOffice Address <br />{" "}
-                <p> 25 Allen Avenue, Ikeja. Lagos state</p>
-              </h3>
+            <div className="bg-gray-500 h-1 w-1/5 my-6"></div>
+            <div className="">
+              <GiTimeBomb className="text-4xl" />
+              <h3>HeadOffice Address</h3>
+              <p> 25 Allen Avenue, Ikeja. Lagos state</p>
             </div>
-            <div className="flex justify-center">
-              <FaMapMarkerAlt />
-              <h3>
-                HeadOffice Address <br />{" "}
-                <p> 25 Allen Avenue, Ikeja. Lagos state</p>
-              </h3>
+            <div className="bg-gray-500 h-1 w-1/5 my-6"></div>
+            <div className="">
+              <RxEnvelopeClosed className="text-4xl" />
+              <h3> HeadOffice Address</h3>
+              <p> 25 Allen Avenue, Ikeja. Lagos state</p>
             </div>
           </div>
         </div>
