@@ -113,7 +113,7 @@ a {
   margin-bottom: 3rem;
 }
 .contact-btn {
-  color: var(--clr-white);
+  color: var(--clr-white) !important;
   padding: 1rem 2rem;
   border-top-left-radius: 30px;
   border-bottom-right-radius: 30px;

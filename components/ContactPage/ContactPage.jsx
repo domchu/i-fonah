@@ -22,13 +22,13 @@ const ContactPage = () => {
           }}
         >
           <div
-            className=""
+            className="absolute z-10 mt-14 md:flex flex-direction-column justify-center items-center"
             style={{
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
-              alignItems: "left",
-              marginLeft: "20rem",
+              alignItems: "center",
+              textAlign: "center",
             }}
           >
             <h1 className="contact-text">CONTACT US</h1>

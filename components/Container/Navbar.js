@@ -47,27 +47,27 @@ const NavBar = () => {
             </h1>
           </Link>
           <ul style={{ color: `${textColor}` }} className=" hidden sm:flex ">
-            <li className="p-4 text-2xl  hover:text-gray-500">
+            <li className="p-2 text-2xl  hover:text-gray-500 lg:p-4">
               <Link href="/" className="un-list" passHref>
                 Home
               </Link>
             </li>
-            <li className="p-4 text-2xl  hover:text-gray-500">
+            <li className="p-2 text-2xl  hover:text-gray-500 lg:p-4">
               <Link href="/about" className="un-list" passHref>
                 About
               </Link>
             </li>
-            <li className="p-4 text-2xl  hover:text-gray-500">
+            <li className="p-2 text-2xl  hover:text-gray-500 lg:p-4">
               <Link href="/blog" className="un-list" passHref>
                 Blog
               </Link>
             </li>
-            <li className="p-4 text-2xl  hover:text-gray-500">
+            <li className="p-2 text-2xl  hover:text-gray-500 lg:p-4">
               <Link href="/training" className="un-list" passHref>
                 Training
               </Link>
             </li>
-            <li className="p-4 text-2xl  hover:text-gray-500">
+            <li className="p-2 text-2xl  hover:text-gray-500 lg:p-4">
               <Link href="/services" className="un-list" passHref>
                 Services
               </Link>
