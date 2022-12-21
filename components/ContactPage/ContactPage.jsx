@@ -87,29 +87,50 @@ const ContactPage = () => {
             </div>
           </div>
         </div>
-        <div className="contact-form text-black flex-wrap pl-d pr-5 h-full w-4/5">
+        <div className="contact-form text-black flex-wrap ml-6 pl-d pr-5 h-full w-full">
           <div>
-            <h1 className="items-center text-left text-3xl mt-5">
+            <h1 className="items-center text-center text-3xl mt-5">
               Send A Message
             </h1>
-            <p>
+            <div className="bg-black text-center m-auto h-1 w-2/5 my-6 md:w-1/5"></div>
+            <p className="text-2xl capitalize">
               your email address will not be published. Required fills are
               marked with *
             </p>
             <div>
-              <input type="text" name="name" placeholder="Name.......*" />
-              <input type="text" name="name" placeholder="Email.......*" />
+              <div>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Name.......*"
+                  className="pl-6 p-3 mt-4 mb-2  border-x-2 border-y-2 border-solid w-4/5 font-bold text-lg"
+                />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Email.......*"
+                  className="pl-6 p-3 mt-4 mb-2 border-x-2 border-y-2 border-solid w-4/5 font-bold text-lg"
+                />
+              </div>
             </div>
             <div>
-              <input type="text" name="name" placeholder="Subject.......*" />
+              <input
+                type="text"
+                name="name"
+                placeholder="Subject.......*"
+                className="pl-6 p-3 mt-4 mb-2 border-x-2 border-y-2 border-solid w-4/5 font-bold text-lg"
+              />
             </div>
           </div>
-          <div className="">
+          <div>
             <textarea
+              className="mt-2 pl-6 pt-6 font-bold border-x-2 border-y-2 border-solid w-4/5 text-lg"
               name=""
               placeholder="Your Message....."
               cols="30"
-              rows="10"
+              rows="7"
             ></textarea>
           </div>
           <button
