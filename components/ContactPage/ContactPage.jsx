@@ -53,7 +53,7 @@ const ContactPage = () => {
         </div>
       </div>
       {/* the form section of the project */}
-      <div className="flex-wrap border-x-4 border-y-4 border-solid h-auto flex  mt-16 sm:flex-nowrap ">
+      <div className="flex-wrap border-x-4 border-y-4 border-solid h-auto flex  mt-16 sm:flex-nowrap lg:m-x-8">
         <div className="contact-detail bg-black text-white flex-wrap pr-5 h-full w-full">
           <h1 className=" text-3xl mt-5 w-full grid place-items-center">
             Contact Details
@@ -62,26 +62,26 @@ const ContactPage = () => {
           <div>
             <div className="contact-details">
               <FaMapMarkerAlt className="contact-icons" />
-              <h3 className="my-2">HeadOffice Address </h3>
-              <p> 25 Allen Avenue, Ikeja. Lagos state</p>
+              <h3 className="my-2 text-xl md:text-2xl">HeadOffice Address </h3>
+              <p className="text-xl"> 25 Allen Avenue, Ikeja. Lagos state</p>
             </div>
             <div className="bg-gray-500 h-1 w-1/5 my-6 items-center flex justify-center m-auto"></div>
             <div className="contact-details">
               <FiPhoneCall className="contact-icons" />
-              <h3 className="my-2">HeadOffice Address</h3>
-              <p> 25 Allen Avenue, Ikeja. Lagos state</p>
+              <h3 className="my-2 text-xl md:text-2xl">For Rental Support</h3>
+              <p className="text-xl"> +234 7034278995 / +234 80110998914</p>
             </div>
             <div className="bg-gray-500 h-1 w-1/5 my-6  items-center flex justify-center m-auto"></div>
             <div className="contact-details">
               <GiTimeBomb className="contact-icons" />
-              <h3 className="my-2">HeadOffice Address</h3>
-              <p> 25 Allen Avenue, Ikeja. Lagos state</p>
+              <h3 className="my-2 text-xl md:text-2xl">The Office Hours</h3>
+              <p className="text-xl"> Mon-Fri 09:00 - 18:00</p>
             </div>
             <div className="bg-gray-500 h-1 w-1/5 my-6  items-center flex justify-center m-auto"></div>
             <div className="contact-details mb-8">
               <RxEnvelopeClosed className="contact-icons" />
-              <h3 className="my-2"> HeadOffice Address</h3>
-              <p> 25 Allen Avenue, Ikeja. Lagos state</p>
+              <h3 className="my-2 text-xl md:text-2xl"> Send Us Email</h3>
+              <p className="text-xl"> ochu.dominic.onah@gmail.com</p>
             </div>
           </div>
         </div>
