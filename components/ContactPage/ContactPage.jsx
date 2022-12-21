@@ -7,7 +7,7 @@ const ContactPage = () => {
     <>
       <div>
         <div
-          className="contact-banner"
+          className="brightness-50"
           style={{
             backgroundImage: `url(${banner.src})`,
             width: "100%",
@@ -17,14 +17,31 @@ const ContactPage = () => {
             backgroundPosition: "center",
           }}
         >
-          <h1>CONTACT US</h1>
+          <div
+            className=""
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "left",
+              marginLeft: "20rem",
+            }}
+          >
+            <h1 className="contact-text">CONTACT US</h1>
 
-          <Link href="/" passHref>
-            HOME
-          </Link>
-          <Link href="/" passHref>
-            MAKE A CALL
-          </Link>
+            <div>
+              <Link href="/" className="contact-btn bg-orange-500" passHref>
+                HOME
+              </Link>
+              <Link
+                href="tel:+234(0) 703 4278 995"
+                className="contact-btn bg-orange-500"
+                passHref
+              >
+                MAKE A CALL
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </>
