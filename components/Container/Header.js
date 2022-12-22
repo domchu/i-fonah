@@ -18,10 +18,16 @@ const Header = () => {
                 Mon-Fri 08:00 - 18:00 | Saturday 10:00 - 16:00
               </p>
             </div>
+            {/* vertical line */}
+            <div className="hidden md:hidden lg:bg-gray-300 lg:flex lg:items-center lg:justify-center lg:h-8 lg:ml-2 lg:w-0.5 lg:m-auto"></div>
+            {/* vertical line */}
             <div className="hidden sm:hidden lg:flex items-center pl-6 pr-3 ">
               <FiPhoneCall className="text-xl" />
               <p className="text-xm pl-2">+234(0) 703 4278 995</p>
             </div>
+            {/* vertical line */}
+            <div className="hidden md:hidden lg:bg-gray-300 lg:flex lg:items-center lg:justify-center lg:h-8 lg:ml-2 lg:w-0.5 lg:m-auto"></div>
+            {/* vertical line */}
             <div className="flex items-center pl-4">
               <FaMapMarkerAlt className="text-xl" />
               <p className="text-xm pl-2">

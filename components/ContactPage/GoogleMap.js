@@ -10,7 +10,7 @@ const GoogleMap = () => {
         <h1 className="my-8">google map</h1>
       </div>
       <div className="lest-contact text-center ml-2 mr-2 bg-black text-white h-80 w-full relative md:flex md:justify-around md:h-60  lg:flex justify-around lg:h-40">
-        <h2 className="text-2xl my-5 mx-3 p-4 md:w-2/5 md:mt-5">
+        <h2 className="text-2xl my-5 mx-3 p-4 md:w-3/5 md:mt-5 md:my-0">
           We Help industries and organizations turn ideas into creativity and
           funds
         </h2>
