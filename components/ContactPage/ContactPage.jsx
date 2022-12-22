@@ -134,7 +134,7 @@ const ContactPage = () => {
           </div>
           <button
             type="submit"
-            className="p-4 m-4 text-white bg-orange-500 rounded-md hover:animate-bounce hover:bg-orange-300 hover:text-black delay-100 ease-in-out"
+            className="py-4 px-6 mt-6  text-white bg-orange-500 rounded-md hover:animate-bounce hover:bg-orange-300 hover:text-black delay-100 ease-in-out"
           >
             SEND MESSAGE
           </button>
