@@ -11,8 +11,6 @@ export default function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <ContactPage />
-
-      <h1 className="text-3xl p-40 text-fuchsia-600">Contact</h1>
     </>
   );
 }

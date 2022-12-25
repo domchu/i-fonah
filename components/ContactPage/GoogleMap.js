@@ -1,7 +1,7 @@
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
 import { BsArrowRightCircle } from "react-icons/bs";
-import Link from "next/link";
+
 
 const GoogleMap = () => {
   return (
@@ -34,6 +34,30 @@ const GoogleMap = () => {
             </a>
             <BsArrowRightCircle className="ml-3 text-xl" />
           </li>
+        </div>
+      </div>
+
+      {/* new letter part of the project */}
+      <div className="wrap md:flex md:justify-around bg-gray-300 text-black md:h-28 md:items-center">
+        <div>
+          <h1 className="text-2xl w-full text-center p-4">
+            Newsletter subscription Get the latest deal from TwitchTech
+          </h1>
+        </div>
+        <div>
+          <input
+            type="text"
+            className="border-x-2 border-y-2 h-8 text-center py-7 text-xl"
+            placeholder="Enter Email ......."
+          />
+        </div>
+        <div>
+          <input
+            type="submit"
+            value="SUBSCRIBE"
+            placeholder="Subscribe"
+            className="bg-black text-white py-5 px-6"
+          />
         </div>
       </div>
     </>
