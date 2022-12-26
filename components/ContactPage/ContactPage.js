@@ -103,6 +103,7 @@ const ContactPage = () => {
                   name="name"
                   placeholder="Name.......*"
                   className="pl-6 p-3 mt-4 mb-2  border-x-2 border-y-2 border-solid w-4/5 font-bold text-lg"
+                  required
                 />
               </div>
               <div>
@@ -111,6 +112,7 @@ const ContactPage = () => {
                   name="name"
                   placeholder="Email.......*"
                   className="pl-6 p-3 mt-4 mb-2 border-x-2 border-y-2 border-solid w-4/5 font-bold text-lg"
+                  required
                 />
               </div>
             </div>
@@ -120,6 +122,7 @@ const ContactPage = () => {
                 name="name"
                 placeholder="Subject.......*"
                 className="pl-6 p-3 mt-4 mb-2 border-x-2 border-y-2 border-solid w-4/5 font-bold text-lg"
+                required
               />
             </div>
           </div>
