@@ -43,7 +43,7 @@ const NavBar = () => {
               style={{ color: `${textColor}` }}
               className="font-bold text-3xl p-8 "
             >
-              IFONAH
+              ARONOX
             </h1>
           </Link>
           <ul style={{ color: `${textColor}` }} className=" hidden sm:flex ">

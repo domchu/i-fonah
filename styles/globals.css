@@ -101,7 +101,7 @@ a {
 }
 @layer components {
   .footer-links {
-    @apply hover:text-orange-400 hover:animate-bounce hover:py-2 hover:delay-200 py-2 text-xs;
+    @apply hover:text-orange-400 hover:animate-bounce hover:py-2 hover:delay-200 py-2 text-sm;
   }
 }
 
