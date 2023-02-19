@@ -1,13 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import socialIcons from "../SocialData";
-// import {
-//   FaWhatsapp,
-//   FaFacebook,
-//   FaLinkedin,
-//   FaTwitter,
-//   FaInstagram,
-// } from "react-icons/fa";
 
 const Footer = () => {
   return (
