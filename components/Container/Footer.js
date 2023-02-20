@@ -94,7 +94,10 @@ const Footer = () => {
       </div>
       <div className="underline"></div>
       <div className="footer">
-        <p className="footer-text">ARONOX &copy;2022, All Right Reserved</p>
+        <p className="footer-text">
+          &copy; 2022 Aronox, All Right Reserved | Power by Aronox Software
+          Enginering Company
+        </p>
       </div>
     </>
   );
