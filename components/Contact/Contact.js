@@ -4,7 +4,7 @@ import banner from "../../public/images/contact.jpg";
 import GoogleMap from "./GoogleMap";
 import ContactForm from "./ContactForm";
 
-const ContactPage = () => {
+const Contact = () => {
   return (
     <>
       <div>
@@ -57,4 +57,4 @@ const ContactPage = () => {
   );
 };
 
-export default ContactPage;
+export default Contact;
