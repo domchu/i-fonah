@@ -11,7 +11,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Testimonial />
-      <h1 className="text-4xl p-40 text-fuchsia-600">Home</h1>
     </>
   );
 }
