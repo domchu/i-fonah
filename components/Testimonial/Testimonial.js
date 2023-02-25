@@ -32,9 +32,7 @@ const Testimonial = () => {
   return (
     <section className="section">
       <div className="title">
-        <h2>
-           TESTIMONIALS
-        </h2>
+        <h2>TESTIMONIALS</h2>
       </div>
       <div className="section-center">
         {people.map((person, personIndex) => {
