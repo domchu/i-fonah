@@ -2,7 +2,7 @@ const people = [
   {
     id: 1,
     image:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg",
+      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpeg",
     name: "Maria Ferguson",
     title: "school Parent",
     quote:
@@ -11,7 +11,7 @@ const people = [
   {
     id: 2,
     image:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg",
+      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpeg",
     name: "John Doe",
     title: "school Parent",
     quote:
@@ -20,7 +20,7 @@ const people = [
   {
     id: 3,
     image:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959121/person-1_aufeoq.jpg",
+      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959121/person-1_aufeoq.jpeg",
     name: "peter smith",
     title: "school Parent",
     quote:
@@ -29,7 +29,7 @@ const people = [
   {
     id: 4,
     image:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
+      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpeg",
     name: "Susan Andersen",
     title: "school Parent",
     quote:

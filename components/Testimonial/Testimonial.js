@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+// import Image from "next/image";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 import { FaQuoteRight } from "react-icons/fa";
 import data from "./data";
@@ -53,7 +54,13 @@ const Testimonial = () => {
           //* mapping the json/data
           return (
             <article className={position} key={id}>
-              <img src={image} alt={name} className="person-img" />
+              <img
+                src={image}
+                alt={name}
+                className="person-img"
+                width={150}
+                height={150}
+              />
               <h4>{name}</h4>
               <p className="title">{title} </p>
               <p className="text">{quote} </p>
