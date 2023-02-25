@@ -14,15 +14,21 @@ const Header = () => {
           <div className="flex items-center text-white-600 mt-6">
             <div className="flex items-center">
               <GiTimeBomb className="text-xl" />
-              <p className="text-xm pl-2">
+              <p className="text-xm md:pl-2">
                 Mon-Fri 08:00 - 18:00 | Saturday 10:00 - 16:00
               </p>
             </div>
-            <div className="flex items-center pr-6 pl-6">
+            {/* vertical line */}
+            <div className="hidden md:hidden lg:bg-gray-300 lg:flex lg:items-center lg:justify-center lg:h-8 lg:ml-2 lg:w-0.5 lg:m-auto"></div>
+            {/* vertical line */}
+            <div className="hidden sm:hidden lg:flex items-center pl-6 pr-3 ">
               <FiPhoneCall className="text-xl" />
               <p className="text-xm pl-2">+234(0) 703 4278 995</p>
             </div>
-            <div className="flex items-center">
+            {/* vertical line */}
+            <div className="hidden md:hidden lg:bg-gray-300 lg:flex lg:items-center lg:justify-center lg:h-8 lg:ml-2 lg:w-0.5 lg:m-auto"></div>
+            {/* vertical line */}
+            <div className="flex items-center pl-4">
               <FaMapMarkerAlt className="text-xl" />
               <p className="text-xm pl-2">
                 25 Allen Avenue, Ikeja. Lagos state

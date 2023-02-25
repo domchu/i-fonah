@@ -37,37 +37,37 @@ const NavBar = () => {
         className="w-full ease-in duration-300 "
         // className="fixed left-0 top-0 w-full z-10 ease-in duration-300"
       >
-        <div className="max-w-[1240] m-auto flex justify-evenly items-center  text-white ">
+        <div className="max-w-[1240] m-auto flex justify-evenly items-center  text-white uppercase ">
           <Link href="/" className="hover:text-gray-500" passHref>
             <h1
               style={{ color: `${textColor}` }}
               className="font-bold text-3xl p-8 "
             >
-              IFONAH
+              ARONOX
             </h1>
           </Link>
           <ul style={{ color: `${textColor}` }} className=" hidden sm:flex ">
-            <li className="p-4 text-2xl  hover:text-gray-500">
+            <li className="p-2 text-2xl  hover:text-gray-500 lg:p-4">
               <Link href="/" className="un-list" passHref>
                 Home
               </Link>
             </li>
-            <li className="p-4 text-2xl  hover:text-gray-500">
+            <li className="p-2 text-2xl  hover:text-gray-500 lg:p-4">
               <Link href="/about" className="un-list" passHref>
                 About
               </Link>
             </li>
-            <li className="p-4 text-2xl  hover:text-gray-500">
+            <li className="p-2 text-2xl  hover:text-gray-500 lg:p-4">
               <Link href="/blog" className="un-list" passHref>
                 Blog
               </Link>
             </li>
-            <li className="p-4 text-2xl  hover:text-gray-500">
+            <li className="p-2 text-2xl  hover:text-gray-500 lg:p-4">
               <Link href="/training" className="un-list" passHref>
                 Training
               </Link>
             </li>
-            <li className="p-4 text-2xl  hover:text-gray-500">
+            <li className="p-2 text-2xl  hover:text-gray-500 lg:p-4">
               <Link href="/services" className="un-list" passHref>
                 Services
               </Link>
