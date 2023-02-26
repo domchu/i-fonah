@@ -88,7 +88,7 @@ a {
 }
 
 .underline {
-  background-color: var(--clr-orange);
+  background-color: var(--clr-orange-200);
   height: 6px;
   width: 100%;
 }
