@@ -16,6 +16,19 @@ const AboutUs = () => {
           <div>
             <Image src={contact2} alt="about us" width={500} height={450} />
           </div>
+          <div>
+            <p>
+              we are formed from extensive experience in innovation and digital
+              transformation. we worked mainly in the creation of digital
+              solution and product based on new technologies in an open
+              innovation model.
+            </p>
+            <br />
+            <p>
+              Our team of creative and technologies geeks think and work
+              differently.
+            </p>
+          </div>
         </div>
       </div>
     </>
